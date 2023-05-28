@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html>
+   
+<head>
+ <title>Engineering College</title>
+
+ <!--------------STYLESHEET SECTION----------------->
+
+
+ <style>
+ body {
+ font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+ font-size: 20px;
+ background-color: coral;
+ margin: 0;
+ padding: 0;
+ line-height: 35px;
+ }
+ header {
+ background-color: tan;
+ color: maroon;
+ padding: 10px;
+ text-align: center;
+ < !-- margin-bottom: 30px;
+ -->
+ }
+ header img {
+ width: 118px;
+ height: 118px;
+ float: left;
+ border-radius: 50%;
+ }
+ header p{
+    font-size: 46px;
+ }
+ header img:hover {
+ width: 123px;
+ height: 123px;
+ }
+ nav .header {
+ list-style: none;
+ margin-top: 0px;
+ padding: 0;
+ display: flex;
+ justify-content: space-around;
+ background-color: linen;
+ box-shadow: 0 0 10px rgba(20, 17, 17, 0.1);
+ position: sticky;
+ top: 0;
+ z-index: 1;
+ border: 1px solid wheat;
+ }
+ nav .header .head {
+ padding: 10px;
+ }
+ nav .header .head a {
+ color: rgb(13, 11, 11);
+ text-decoration: none;
+ font-weight: bold;
+ font-size: 18px;
+ transition: all 0.2s ease-in-out;
+ }
+ nav .header .head a:hover {
+ color: #586265;
+ font-size: 20px;
+ transform: scale(1.1);
+ }
+ section {
+ background-color: #fff;
+ padding: 20px;
+ margin-bottom: 30px;
+ box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+ border-radius: 5px;
+ }
+ section h2 {
+ color: p;
+ margin-top: 0;
+ text-align: center;
+ font-size: 26px;
+ margin-bottom: 30px;
+ text-transform: uppercase;
+ text-decoration: underline;
+ }
+ section p a {
+ color: black;
+ }
+ section p a:hover {
+ color: gray;
+ font-size: 22px;
+ }
+ .body {
+ margin: 0;
+ padding: 0;
+ list-style: none;
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: center;
+ background-color: #f5f5f5;
+ }
+ .body li {
+ padding: 10px;
+ border-radius: 5px;
+ background-color: charcoal;
+ color: black;
+ margin: 10px;
+ text-align: center;
+ flex-basis: 250px;
+ height: 200px;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: center;
+ transition: all 0.2s ease-in-out;
+ }
+ .body li:hover {
+ background-color: #fff;
+ color: #2d3436;
+ transform: translateY(-10px);
+ box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+ }
+ table {
+ border-collapse: collapse;
+ width: 100%;
+ margin-top: 20px;
+ border: 1px solid #ddd;
+ }
+ table th,
+ table td {
+ padding: 10px;
+ text-align: left;
+ border: 1px solid #ddd;
+ }
+ table th {
+ background-color: #2d3436;
+ color: #fff;
+ }
+ table tr:nth-child(even) {
+ background-color: #f5f5f5;
+ }
+ table tr:hover {
+ background-color: #ddd;
+ }
+ footer {
+ background-color: #333;
+ color: #fff;
+ padding: 10px;
+ text-align: center;
+ }
+ @media (max-width: 768px) {
+ nav ul {
+ flex-direction: column;
+ position: static;
+ background-color: transparent;
+ box-shadow: none;
+ }
+ nav ul li {
+ padding: 10px 20px;
+ border-bottom: 1px solid #ddd;
+ border-radius: 0;
+ }
+ nav ul li:last-child {
+ border-bottom: none;
+ }
+ nav ul li a:hover {
+ color: #2d3436;
+ transform: none;
+ }
+ ul li {
+ flex-basis: 100%;
+ height: auto;
+ margin: 10px 0;
+ border-radius: 0;
+ box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+ }
+ section {
+ padding: 10px;
+ margin-bottom: 20px;
+ }
+ section h2 {
+ font-size: 20px;
+ margin-bottom: 20px;
+ }
+ table th,
+ table td {
+ padding: 5px;
+ font-size: 12px;
+ }
+ }
+ </style>
+</head>
+
+<!--------------BODY SECTION-------------->
+
+
+<body>
+ <header>
+ <a href="#about-us"><img src="college logo.png" alt="college logo"></a>
+ <p>HKBK College Of Engineering</p>
+ </header>
+ <nav>
+ <ul class="header">
+ <li class="head"><a href="#about-us">About Us</a></li>
+ <li class="head"><a href="#department">Department</a></li>
+ <li class="head"><a href="#faculty">Faculty</a></li>
+ <li class="head"><a href="#research">Research</a></li>
+ <li class="head"><a href="#placement">Placement</a></li>
+ <li class="head"><a href="#contact-us">Contact Us</a></li>
+ </ul>
+ </nav>
+ <div class="container">
+ <section id="about-us">
+ <h2>About Us</h2>
+ <p>HKBK College of Engineering is a prestigious institution located in
+ Bangalore, India. It was established around 26 years ago, and since then it has been offering 
+quality
+ education to students in various engineering disciplines. The college is affiliated to the 
+Visvesvaraya
+ Technological University (VTU), one of the most reputed universities in India for engineering
+ education.</p>
+ <p> HKBK College of Engineering is known for its state-of-the-art infrastructure and modern
+ facilities, including well-equipped labs, libraries, and sports facilities. The college has a team 
+of highly
+ qualified and experienced faculty members who are committed to providing quality 
+education to the
+ students.</p>
+ <p> The college offers undergraduate and postgraduate programs in various engineering
+ disciplines, including Computer Science and Engineering, Electronics and Communication
+ Engineering, Mechanical Engineering, Civil Engineering, and Information Science and 
+Engineering. In
+ addition, the college also offers research programs leading to a Ph.D. degree in various areas 
+of
+ engineering.</p>
+ <p> Over the years, HKBK College of Engineering has established itself as one of the top
+ engineering colleges in Bangalore, with a strong track record of producing skilled and 
+competent
+ engineering professionals. The college has tie-ups with leading companies in the industry, 
+which
+ provides students with ample opportunities for internships and placements. Overall, HKBK 
+College of
+ Engineering is an excellent choice for students who wish to pursue a career in 
+engineering</p>
+ </section>
+ <section id="department">
+ <h2>Department</h2>
+ <ul class="body">
+ <li><img src="Cse.png" width="190px">Computer Science</li>
+ <li><img src="Civ.png" width="190px">Civil Engineering</li>
+ <li><img src="Mec.png" width="190px">Mechanical Engineering</li>
+ <li><img src="Ele.jpg" width="190px">Electrical Engineering</li>
+ </ul>
+ </section>
+ <section id="faculty">
+ <h2>Faculty</h2>
+ <ul class="body">
+    <li><img src="profile-logo.png" width="190px">Dr. Ashok Kumar PS - HOD</li>
+    <li><img src="profile-logo.png" width="190px">Dr. Smitha Kurian - Professor</li>
+    <li><img src="profile-logo.png" width="190px">Mr. Deepak NR - Asst. Prof</li>
+    <li><img src="profile-logo.png" width="190px">Ms. Simran Pal - Asst. Prof
+ </ul>
+ </section>
+ <section id="research">
+ <h2>Research</h2>
+ <p>HKBK College of Engineering has a strong focus on research and innovation. The college
+ has a dedicated research and development cell that aims to promote and support research 
+activities
+ among students and faculty members. The research activities at the college are focused on
+ addressing the challenges faced by various industries and society.</p>
+ <p>The college has a well-equipped research lab with modern equipment and tools that
+ enable students and faculty members to undertake cutting-edge research in various areas of
+ engineering. The research lab is also equipped with high-performance computing facilities 
+that
+ enable researchers to simulate and analyze complex engineering problems.</p>
+ <p>The faculty members at HKBK College of Engineering are actively engaged in research
+ activities and have published numerous research papers in reputed international and 
+national
+ journals. The college also encourages students to participate in research activities, and 
+several
+ students have undertaken research projects under the guidance of faculty members.</p>
+ <p> The research activities at HKBK College of Engineering are focused on several areas of
+ engineering, including advanced materials, renewable energy, robotics, artificial 
+intelligence, and
+ machine learning. The college also collaborates with leading research institutions and 
+industries to
+ undertake collaborative research projects.</p>
+ <p> In addition, the college regularly organizes seminars, workshops, and conferences to
+ promote research and innovation among students and faculty members. The college also 
+encourages
+ students to participate in research competitions and has a track record of winning several 
+national
+ and international competitions.</p>
+ <p> Overall, HKBK College of Engineering is committed to promoting research and innovation
+ in engineering and has a strong track record of producing competent and skilled engineering
+ professionals who can address the challenges faced by various industries and society.</p>
+ </section>
+ <section id="placement">
+ <h2>Placement</h2>
+ <table>
+ <thead>
+ <tr>
+ <th>Company Name</th>
+ <th>Number of Offers</th>
+ <th>Salary ( in INR )</th>
+ </tr>
+ </thead>
+ <tbody>
+ <tr>
+ <td>AMAZON</td>
+ <td>06</td>
+ <td>20 + LPA</td>
+ </tr>
+ <tr>
+ <td>ACCENTURE</td>
+ <td>09</td>
+ <td>18 + LPA</td>
+ </tr>
+ <tr>
+ <td>IBM</td>
+ <td>10</td>
+ <td>15 + LPA</td>
+ </tr>
+ <tr>
+ <td>COGNIZENT</td>
+ <td>13</td>
+ <td>8 + LPA</td>
+ </tr>
+ <tr>
+ <td>TCS</td>
+ <td>23</td>
+ <td>7 + LPA</td>
+ </tr>
+ </tbody>
+ </table>
+ </section>
+ <section id="contact-us">
+ <h2>Contact Us</h2>
+ <p>Vyalikaval HBCS Layout, Nagawara</p>
+ <p>Bangalore, Karnataka 560045</p>
+ <p>Phone: +91 9950454321</p>
+ <!--
+ <p>Email: <a href="https://mail.google.com/mail/u/0/#inbox" 
+target="_blank">karnishaana.2000rnc@gmail.com</a>
+-->
+ <p>Email: <a href="https://mail.google.com/mail/u/0/#inbox?compose=CllgCJlJWFnxWvZdfhrFMRtRJlxGlsMhlmxjDFSkwswqfmkkCLTrZLbQvhSkfgnKrVZXfbRMwSB" 
+ target="_blank">admission@hkbk.edu.in</a></p>
+ <p class="map">Maps:- <a href="https://goo.gl/maps/BYfXhhHJnX1buWgH7?coh=178573&entry=tt" target="_blank">
+ View on Google Maps</a></p>
+ </section>
+ </div>
+</body>
+<footer>
+ <p>&copy; 2023-24 HKBK College Of Engineering</p>
+</footer>
+</html>
